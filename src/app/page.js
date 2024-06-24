@@ -6,7 +6,6 @@ const page = () => {
   return (
     <>
     <Herosection title={"Let's Watch Movie Together"} />
-    <Footer/>
     </>
   )
 }

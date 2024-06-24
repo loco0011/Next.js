@@ -60,6 +60,7 @@ const ContactForm = () => {
                         value={user.username}
                         onChange={handleChange}
                         autoComplete="off"
+                        required
                     />
                 </label>
             </div>
@@ -70,16 +71,18 @@ const ContactForm = () => {
                         value={user.email}
                         onChange={handleChange}
                         autoComplete="off"
+                        required
                     />
                 </label>
             </div>
             <div className={styles.input_fields}>
                 <label htmlFor="phone" className={styles.label}>
                     Phone Number:
-                    <input type="text" name="phone" id="phone" placeholder="Enter your Phone Number"
+                    <input type="number" name="phone" id="phone" placeholder="Enter your Phone Number"
                         value={user.phone}
                         onChange={handleChange}
                         autoComplete="off"
+                        required
                     />
                 </label>
             </div>
@@ -90,6 +93,7 @@ const ContactForm = () => {
                         value={user.message}
                         onChange={handleChange}
                         autoComplete="off"
+                        required
                     />
                 </label>
             </div>

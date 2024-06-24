@@ -1,7 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
-import Image from 'next/image'
-import herostyles from "@/app/styles/Herosection.module.css"
+import herostyles from "@/app/styles/herosection.module.css"
 import styles from "@/app/styles/common.module.css"
 
 

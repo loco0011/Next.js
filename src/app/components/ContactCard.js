@@ -20,8 +20,8 @@ const ContactCard = () => {
                     <div className={styles.grid_card}>
                         <i> <MdVoiceChat /> </i>
                         <h2>Live Chat</h2>
-                        <p>Weekdays: 9 AM — 6 PM ET</p>
-                        <p className={styles.last_para}>Weekends: 9 AM — 5 PM ET </p>
+                        <p>Weekdays: 9 AM — 6 PM</p>
+                        <p className={styles.last_para}>Weekends: 9 AM — 5 PM</p>
                         <Link href="/" >  Chat Now <span>-&gt;</span></Link>
                     </div>
 
